@@ -28,14 +28,17 @@ const Header = () => {
               <LogInIcon size={16} />
               Fazer Login
             </Button>
+
             <Button variant="outline" className="w-full justify-start gap-2">
               <HomeIcon size={16} />
               Inicio
             </Button>
+
             <Button variant="outline" className="w-full justify-start gap-2">
               <PercentIcon size={16} />
               Ofertas
             </Button>
+
             <Button variant="outline" className="w-full justify-start gap-2">
               <ListOrderedIcon size={16} />
               Catalago
