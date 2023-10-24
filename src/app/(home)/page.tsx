@@ -2,7 +2,7 @@ import Image from "next/image";
 import Categories from "./components/categories";
 import { prismaClient } from "@/lib/prisma";
 import ProductList from "../../components/ui/product-list";
-import SectionTile from "./components/section-title";
+import SectionTile from "../../components/ui/section-title";
 import PromoBanner from "./components/promo-banner";
 
 export default async function Home() {
