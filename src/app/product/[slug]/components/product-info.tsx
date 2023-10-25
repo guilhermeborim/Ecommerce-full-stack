@@ -1,16 +1,10 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import DiscountBadge from "@/components/ui/discount-badge";
 import { ProductWithTotalPrice } from "@/helpers/products";
 import { Pick } from "@prisma/client/runtime/library";
-import {
-  ArrowDownIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
-  TruckIcon,
-} from "lucide-react";
+import { ArrowLeftIcon, ArrowRightIcon, TruckIcon } from "lucide-react";
 import { useState } from "react";
 
 interface ProductInfoProps {
